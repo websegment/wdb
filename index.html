@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>html5 begin</title>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/sql.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<style type="text/css">
+body{
+    line-height: 1.7;
+    font-size:0.8em;
+    ont-weight:normal;
+    font-family: verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+</style>
+</head>
+<body id="wsdb">
+<h1>Web SQL Database sample script</h1>
+<div id="input-form">
+<p>タイトル<br />
+<input type="text" id="title" name="title" />
+</p>
+<p>URL<br />
+<input type="text" id="url" name="url" /><br />
+http://から入力してください</p>
+<p>メモ<br />
+<textarea id="note" name="note"></textarea></p>
+<p><button id="add">追加</button>
+<button id="update">変更</button>
+</p>
+</div>
+<hr />
+<p>URLに対して検索します<br />
+<input type="search" name="search" id="search" />
+<button id="push-search">検索</button>
+</p>
+<div id="bookmark-list"></div>
+<p>
+<button id="drop-table">テーブルの内容を削除</button>
+</p>
+</body>
+</html>
